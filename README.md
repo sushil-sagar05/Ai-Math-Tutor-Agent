@@ -108,7 +108,7 @@ text
 - Git
 
 ### 1. Clone Repository
-git clone https://github.com/your-username/ai-math-tutor.git
+git clone https://github.com/sushil-sagar05/ai-math-tutor-agent.git
 cd ai-math-tutor
 
 text
@@ -183,7 +183,7 @@ text
 ### API Testing
 Use the interactive API documentation at `http://localhost:8000/docs` or test with curl:
 
-curl -X POST "http://localhost:8000/api/solve"
+curl -X POST "http://127.0.0.1:8000/api/solve"
 -H "Content-Type: application/json"
 -d '{"question": "What is 2+2?", "session_id": "test_session"}'
 
